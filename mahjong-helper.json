@@ -1,0 +1,67 @@
+{
+  "request": [
+    {
+      "enable": true,
+      "name": "majsoul",
+      "ruleType": "redirect",
+      "matchType": "regexp",
+      "pattern": "^https://majsoul\\.union-game\\.com/[0-9]+/[a-zA-Z0-9\\.]+/code\\.js$",
+      "exclude": "",
+      "group": "未分组",
+      "isFunction": false,
+      "action": "redirect",
+      "to": "https://jianyan.me/majsoul/code-v0.1.4.js"
+    },
+
+    {
+      "enable": true,
+      "name": "tenhou",
+      "ruleType": "redirect",
+      "matchType": "regexp",
+      "pattern": "^http://tenhou\\.net/3/[0-9a-zA-Z]+\\.js$",
+      "exclude": "",
+      "group": "未分组",
+      "isFunction": false,
+      "action": "redirect",
+      "to": "https://github.com/SDM855/tenhou/blob/master/1670.js"
+    },
+    {
+      "enable": true,
+      "name": "majsoul.com",
+      "ruleType": "redirect",
+      "matchType": "regexp",
+      "pattern": "^https://www\\.majsoul\\.com/[0-9]+/[a-zA-Z0-9\\.]+/code\\.js$",
+      "exclude": "",
+      "group": "未分组",
+      "isFunction": false,
+      "action": "redirect",
+      "to": "https://jianyan.me/majsoul/code-v0.1.4.js"
+    },
+    {
+      "enable": true,
+      "name": "majsoul-japan",
+      "ruleType": "redirect",
+      "matchType": "regexp",
+      "pattern": "^https://game\\.mahjongsoul\\.com/[a-zA-Z0-9\\.]+/code\\.js$",
+      "exclude": "",
+      "group": "未分组",
+      "isFunction": false,
+      "action": "redirect",
+      "to": "https://jianyan.me/majsoul/jp/code.js"
+    },
+    {
+      "enable": true,
+      "name": "majsoul-english",
+      "ruleType": "redirect",
+      "matchType": "regexp",
+      "pattern": "^https://mahjongsoul\\.game\\.yo-star\\.com/[a-zA-Z0-9\\.]+/code\\.js$",
+      "exclude": "",
+      "group": "未分组",
+      "isFunction": false,
+      "action": "redirect",
+      "to": "https://jianyan.me/majsoul/en/code.js"
+    }
+  ],
+  "sendHeader": [],
+  "receiveHeader": []
+}
